@@ -1,0 +1,10 @@
+[project]
+name = "comfy-sageattention-optout-customnodes"
+description = "Minimal ComfyUI custom node for per-model attention overrides."
+version = "0.1.0"
+license = { text = "MIT" }
+
+[tool.comfy]
+publisher_id = "enviraldesign"
+display_name = "Comfy SageAttention Opt-out Custom Nodes"
+icon = ""
