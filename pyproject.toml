@@ -1,10 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "comfy-sageattention-optout-customnodes"
-description = "Minimal ComfyUI custom node for per-model attention overrides."
+name = "sageattention-optout-customnodes"
 version = "0.1.0"
-license = { text = "MIT" }
+description = "Minimal ComfyUI custom node for per-model SageAttention opt-out and attention overrides."
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/EnviralDesign/comfy-sageattention-optout-customnodes"
+Documentation = "https://github.com/EnviralDesign/comfy-sageattention-optout-customnodes#readme"
+"Bug Tracker" = "https://github.com/EnviralDesign/comfy-sageattention-optout-customnodes/issues"
 
 [tool.comfy]
-publisher_id = "enviraldesign"
-display_name = "Comfy SageAttention Opt-out Custom Nodes"
-icon = ""
+PublisherId = "enviral-design"
+DisplayName = "SageAttention Opt-out Custom Nodes"
