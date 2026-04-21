@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sageattention-optout-customnodes"
-version = "0.1.0"
+version = "0.1.1"
 description = "Minimal ComfyUI custom node for per-model SageAttention opt-out and attention overrides."
 license = { file = "LICENSE" }
 readme = "README.md"
